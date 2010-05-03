@@ -42,7 +42,7 @@ cd %{trac_ver}
 rm -rf $RPM_BUILD_ROOT
 
 %post
-trac-enableplugin doxygentrac.doxygentrac
+trac-enableplugin doxygentrac.doxygentrac.doxygenplugin
 
 %files
 %defattr(644,root,root,755)
