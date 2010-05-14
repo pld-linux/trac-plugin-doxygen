@@ -10,6 +10,10 @@ Source0:	http://trac-hacks.org/changeset/latest/doxygenplugin/0.11?old_path=/&fi
 # Source0-md5:	2e009d081920b2ec80e43cbdd2d7b138
 URL:		http://trac-hacks.org/wiki/DoxygenPlugin
 BuildRequires:	python-devel
+BuildRequires:	python-distribute
+BuildRequires:	python-modules
+BuildRequires:	rpm-pythonprov
+BuildRequires:	unzip
 Requires:	trac >= %{trac_ver}.7-3
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
