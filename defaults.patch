@@ -1,0 +1,11 @@
+--- doxygenplugin/0.11/doxygentrac/doxygentrac.py~	2009-08-06 14:59:46.000000000 +0300
++++ doxygenplugin/0.11/doxygentrac/doxygentrac.py	2010-05-17 23:29:10.135276403 +0300
+@@ -38,7 +38,7 @@
+     implements(IPermissionRequestor, INavigationContributor, IRequestHandler,
+                ITemplateProvider, ISearchSource, IWikiSyntaxProvider)
+ 
+-    base_path = Option('doxygen', 'path', '/var/lib/trac/doxygen',
++    base_path = Option('doxygen', 'path', '/var/cache/trac-plugin-doxygen',
+       """Directory containing doxygen generated files.""")
+ 
+     default_doc = Option('doxygen', 'default_documentation', '',
