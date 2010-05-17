@@ -9,3 +9,12 @@
        """Directory containing doxygen generated files.""")
  
      default_doc = Option('doxygen', 'default_documentation', '',
+@@ -69,7 +69,7 @@
+       """Wiki page to use as the default page for the Doxygen main page.
+       If set, supersedes the `[doxygen] index` option.""")
+ 
+-    encoding = Option('doxygen', 'encoding', 'iso-8859-1',
++    encoding = Option('doxygen', 'encoding', 'utf-8',
+       """Default encoding used by the generated documentation files.""")
+ 
+     default_namespace = Option('doxygen', 'default_namespace', '',
