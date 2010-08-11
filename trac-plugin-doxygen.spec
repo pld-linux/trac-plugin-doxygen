@@ -3,7 +3,7 @@
 Summary:	Integrates doxygen documentation into Trac
 Name:		trac-plugin-%{plugin}
 Version:	0.11.0.2
-Release:	3
+Release:	4
 License:	BSD-like
 Group:		Applications/WWW
 Source0:	http://trac-hacks.org/changeset/latest/doxygenplugin/0.11?old_path=/&filename=doxygenplugin/0.11&format=zip&/%{plugin}.zip
